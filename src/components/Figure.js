@@ -17,12 +17,3 @@ const Figure = ({ topText, bottomText, randomImg, fetchError, isLoading }) => {
 }
 
 export default Figure
-
-/* { !fetchError ?
-    (<figure className='memeImage'>
-      <img src={randomImg} alt="memeImage" />
-      <div className='topText'>{ topText }</div>
-      <div className='bottomText'>{ bottomText }</div>
-    </figure>) :
-    (<p>`Error: ${fetchError}`</p>)
-    } */
